@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <title>Go :: Home</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="go.css">
+    <link rel="icon" href="goicon.png">
+</head>
+
+
+<body>
+    <div id="header">
+	<ul>
+        <li><a href="index.html">Home</a></li>
+       <li><a href="products.html">Products</a></li>
+       <li><a href="promotions.html">Promotions</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="#">More</a>
+            <ul id="drpdown">
+                <li><a href="aboutus.html">AboutUS</a></li>
+                <li><a href="contact.html">Contact</a></li> 
+                <li><a href="career.html">Careers</a></li> 
+            </ul>    
+        </li>
+		</ul>
+    </div>
+    <div id="wrapper">
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="img1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img2.jpg" style="width:100%">
+  </div>
+      
+  <div class="mySlides fade">
+    <img src="img3.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides fade">
+    <img src="img4.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides fade">
+    <img src="img5.jpg" style="width:100%">
+  </div>
+        </div>
+        <script type="text/javascript">
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+        </script> 
+           <article>
+                         <p><img src="go%20summer.jpg" width="490" height="390">
+
+                     </p>
+                 </article>
+    </div>
+    <div id="footer"> 
+        
+        <strong><i><h5>Copyright &copy; BUE Prep 2018, All rights reserved.</i></strong></h5> <br>
+		<a href="http://facebook.com" target="_blank"><img src="icons_f.jpg" width="40" alt=" "></a>  
+		<a href="https://twitter.com" target="_blank"><img src="icons_t.jpg" width="40" alt=" "></a>  
+		<a href="https://www.youtube.com" target="_blank"><img src="icons_y.jpg" width="40" alt=" "></a>  
+		<a href="https://www.instagram.com" target="_blank"><img src="icons_i.jpg" width="40" alt=" "></a>
+		<a href="https://www.snapchat.com" target="_blank"><img src="icons_s.jpg" width="40" alt=" "></a>
+    </div>
+</body>
+
+</html>
